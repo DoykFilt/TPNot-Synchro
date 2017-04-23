@@ -4,7 +4,7 @@
    <comment>algorithm is the class implementing your algorithm and instance
    	is the datafile holding the instance to solve
    </comment>
-   <entry key="algorithm">tpnotesynchro.exampls.ExampleAlgorithm</entry>
+   <entry key="algorithm">tpnotesynchro.OurAlgorithm</entry>
    <entry key="maxcpu">10</entry>
    <entry key="instance">./data/wi29.tsp.txt</entry>
    <entry key="seed">123456</entry>

@@ -40,7 +40,7 @@ public class ExampleAlgorithm implements Algorithm {
 		for(int i=0; i<instance.getN(); i++){
 			s.add(i);
 		}
-		while((System.currentTimeMillis()-startTime)/1_000<=max_cpu){	
+		while((System.currentTimeMillis()-startTime)/10_000<=max_cpu){	
 			Collections.shuffle(s,rnd);
 			//set the objective function of the solution
 			s.setOF(TSPCostCalculator.calcOF(instance.getDistanceMatrix(), s));
